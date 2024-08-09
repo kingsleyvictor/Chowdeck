@@ -1,0 +1,115 @@
+:root{
+    --bs-input-grey:#F2F2F2;
+    --bs-line-grey:#E5E7EB;
+    --bs-light-green:#F2F6F5;
+    --bs-colour-white:#ffffff;
+    --bs-color-green:#0C513F;
+    --bs-colour-icon-green:#02C27F;
+}
+.div1_desk{
+ padding: 10px;
+}
+#desktop_nav{
+    border-bottom: 1px solid var(--bs-line-grey);
+}
+ #desktop_nav .container{
+    padding: 8px 0px;
+}
+.div1_desk img{
+    height: 45px;
+    border-radius: 6px;
+}
+.div1_desk i:nth-child(1){
+    color:var(--bs-colour-icon-green);
+}
+.div1_desk i:nth-child(2) {
+    font-weight: bolder;
+    font-size: 10px;
+}
+.mod2{
+    border: none;
+}
+.desk-mod1{
+    padding-top: 30px;
+    padding-bottom: 200px;
+    position: relative;
+}
+.desk-mod1 input{
+    border-radius: 8px;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    background-color: var(--bs-light-green);
+}
+.desk-mod1 span{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+.desk-mod1 span i{
+    font-size: 20px;
+}
+.div2_desk{
+    position: relative;
+}
+.div2_desk span{
+    position: absolute;
+    top: 8px;
+    left: 15px;
+}
+.div2_desk span i{
+    font-size: 15px;
+}
+.div2_desk input{
+    padding: 5px 30px;
+    border-radius: 6px;
+    width: 90%;
+    border: none;
+    background-color: var(--bs-input-grey);
+}
+.div2_desk div i{
+    color: white;
+    font-size: 18px;
+    background-color: var(--bs-color-green);
+    border-radius: 50%;
+    padding: 7px 11px;
+}
+.div2_desk .divs  i {
+    color: white;
+    font-size: 18px;
+    background-color: var(--bs-color-green);
+    border-radius: 50%;
+    padding: 7px 11px;
+}
+.diver{
+    width: 85%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.div3_desk{
+    position: relative;
+}
+.div3_desk input {
+    padding: 8px 33px;
+    border-radius: 6px;
+    width: 90%;
+    border: none;
+    background-color: var(--bs-input-grey);
+}
+.div3_desk span {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.div3_desk span i {
+    font-size: 15px;
+}
+.first-sec{
+    
+}
